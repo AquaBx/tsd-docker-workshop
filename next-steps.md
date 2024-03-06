@@ -100,8 +100,8 @@ The second container is Redis - an in-memory database.
 3. **Create a `requirements.txt` file**. This file defines Python dependencies for your application.
 
     ```bash
-    Flask==2.0.1
-    Redis==3.5.3
+    Flask
+    Redis
     ```
 
     Save this file as `requirements.txt`.
