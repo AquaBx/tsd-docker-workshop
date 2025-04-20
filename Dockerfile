@@ -15,7 +15,9 @@ RUN yarn install
 COPY . .
 
 # Build the project
-RUN yarn build
+# RUN yarn build
+
+RUN apt-get update && apt-get install -y tree
 
 # Expose the port the app will listen on
 EXPOSE 8080
